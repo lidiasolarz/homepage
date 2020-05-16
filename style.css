@@ -1,7 +1,73 @@
 body {
-background: #fefefe;
+  background: #a8acec;
 }
 
-h2 {
-    color: #1460AA;
+.header {
+  border: 3px solid rgb(214, 19, 19);
+}
+
+.navigation {
+  background: rgb(95, 89, 89);
+  border: 3px solid rgb(214, 185, 19);
+  width: 100%;
+  height: 70px;
+  padding: 25px;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+.navigarion__link {
+  background: rgb(226, 176, 176);
+  margin-left: 20px;
+  
+}
+
+.main {
+  border: 3px solid black;
+  margin: 10px;
+}
+
+.main__header {
+  border: 3px solid black;
+}
+
+.main__heading {
+  border: 3px solid black;
+}
+
+.about {
+  border: 3px solid rgb(0, 139, 128);
+}
+
+.about__heading {
+  border: 3px solid rgb(0, 139, 128);
+}
+
+.about__description {
+  border: 3px solid rgb(0, 139, 128);
+}
+
+.section-note {
+  border: 3px solid rgb(252, 8, 199);
+}
+
+.article {
+  border: 3px solid rgb(32, 8, 252);
+}
+
+.article__heading {
+  border: 3px solid rgb(248, 252, 8);
+}
+
+.article__description {
+  border: 3px solid rgb(252, 8, 8);
+}
+
+.article__list {
+  border: 3px solid rgb(1, 0, 10);
+}
+
+.footer {
+    margin: 50px;
+    border: 3px solid rgb(1, 0, 10);
 }

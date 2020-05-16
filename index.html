@@ -1,66 +1,87 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-
-    <header>
-        <nav id="navigation">
-            <a href="index.html">Home</a>
-            <a href="notatki-html.html">HTML</a>
-            <a href="notatki-css.html">CSS</a>
-            <a href="notatki-js.html">Java Script</a>
-        </nav>
+  <body>
+    <header class="header">
+      <nav class="navigation" id="top">
+        <a class="navigarion__link navigation__link--homepage" href="index.html">Home</a>
+        <a class="navigarion__link" href="notatki-html.html">HTML</a>
+        <a class="navigarion__link" href="notatki-css.html">CSS</a>
+        <a class="navigarion__link" href="notatki-js.html">Java Script</a>
+      </nav>
     </header>
 
-    <main>
-        <header>
-            <h1>Lidia Solarz - Strona domowa</h1>
-            <img src="Lidisky.JPG" alt="Lidisky-foto">
-        </header>
+    <main class="main">
+      <header class="main__header">
+        <h1 class="main__heading main__heading--js">
+          Lidia Solarz - Strona domowa
+        </h1>
+        <img class="main__img" src="Lidisky.JPG" alt="Lidisky-foto" />
+      </header>
 
-        <section>
-            <h2>Kim Jestem?</h2>
-            <p>Cześć! Nazywam się Lidia Solarz i aktualnie aspiruje do bycia Front-End Developerem. Obecnie moim głównym
-                celem zawodowym jest znalezienie pracy na stanowisku Juniora, która da mi możliwość zdobywania
-                niezbędnej wiedzy, pogłębienia i doskonalenia umiejętności programistycznych, angażowania się w ciekawe
-                i kreatywne projekty oraz podnoszenia kwalifikacji programistycznych. Obecnie skupiam się na nauce HTML,
-                CSS, JavaScript. Ponadto wkładam dużo pracy, aby napisać jasny i semantycznie poprawny kod.
-            </p>
-        </section>
+      <section class="about">
+        <h2 class="about__heading">Kim Jestem?</h2>
+        <p class="about__description">
+          Cześć! Nazywam się Lidia Solarz i aktualnie aspiruje do bycia
+          Front-End Developerem. Obecnie moim głównym celem zawodowym jest
+          znalezienie pracy na stanowisku Juniora, która da mi możliwość
+          zdobywania niezbędnej wiedzy, pogłębienia i doskonalenia umiejętności
+          programistycznych, angażowania się w ciekawe i kreatywne projekty oraz
+          podnoszenia kwalifikacji programistycznych. Obecnie skupiam się na
+          nauce HTML, CSS, JavaScript. Ponadto wkładam dużo pracy, aby napisać
+          jasny i semantycznie poprawny kod.
+        </p>
+      </section>
 
-        <section>
-            <h2>Notatki</h2>
+      <section class="section-note">
+        <h2 class="section-note__heading">Notatki</h2>
 
-            <article>
-                <h3>Czym jest Frontend?</h3>
-                Odpowiada za wygląd stron i aplikacji internetowych. Odpowiada za interakcję z użytkownikiem. Jest
-                generowany przy użyciu technologii HTML, CSS, JAVASCRIPT. Technologie Frontend-we przejmują rynek
-                tradycyjnych aplikacji.
-            </article>
+        <article class="article">
+          <h3 class="article__heading">Czym jest Frontend?</h3>
+          <p class="article__description">
+            Odpowiada za wygląd stron i aplikacji internetowych. Odpowiada za
+            interakcję z użytkownikiem. Jest generowany przy użyciu technologii
+            HTML, CSS, JAVASCRIPT. Technologie Frontend-we przejmują rynek
+            tradycyjnych aplikacji.
+          </p>
+        </article>
 
-            <article>
-                <h3>Warstwy strony internetowej</h3>
-                <ul>
-                    <li>Warstwa 0 - Treść - nośnik informacji, wszystko co widzimy w przeglądarce (CONTENT IS THE KING)</li>
-                    <li>Warstwa 1 - Semantyka: HTML - nadaje znaczenie, sens treści poprzez opakowanie jej w znaczniki, które mają swoje znaczenia</li>
-                    <li>Warstwa 2 - Prezentacja: CSS - nadaje wygląd niższym warstwom</li>
-                    <li>Warstwa 3 - Interakcja: JavaScript - odpowiada za interakcje z użytkownikiem</li>
-                </ul>
-            </article>
-        </section>
+        <article class="article">
+          <h3 class="article__heading">Warstwy strony internetowej</h3>
+          <ul class="article__list">
+            <li>
+              Warstwa 0 - Treść - nośnik informacji, wszystko co widzimy w
+              przeglądarce (CONTENT IS THE KING)
+            </li>
+            <li>
+              Warstwa 1 - Semantyka: HTML - nadaje znaczenie, sens treści
+              poprzez opakowanie jej w znaczniki, które mają swoje znaczenia
+            </li>
+            <li>
+              Warstwa 2 - Prezentacja: CSS - nadaje wygląd niższym warstwom
+            </li>
+            <li>
+              Warstwa 3 - Interakcja: JavaScript - odpowiada za interakcje z
+              użytkownikiem
+            </li>
+          </ul>
+        </article>
+      </section>
     </main>
 
-    <footer>
-        A tu jest stopka. By Lidi'sky<br/><a href="#navigation">Wróć do nawigacji</a>
+    <footer class="footer">
+      A tu jest stopka. By Lidi'sky<br /><a
+        class="footer__link"
+        href="#top"
+        >Wróć do nawigacji</a
+      >
     </footer>
-
-</body>
-
+    <script src="main.js"></script>
+  </body>
 </html>
